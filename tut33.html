@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after psuedo selectors</title>
+    <style>
+        /* header{
+            display: flex;
+            flex-direction: column;
+        } */
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+        section{
+            height: 200px;
+            width: auto;
+            margin: 0px 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* border: 2px solid red; */
+            justify-content: center;
+            text-align: center;
+        }
+        /* section::before{
+            content: "this is another content";
+            font-size: 15px;
+        } */
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            text-align: center;
+        }
+        /* section::after{
+            content: "this is another content";
+            font-size: 15px;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">home</li>
+                <li class="item">about</li>
+                <li class="item">services</li>
+                <li class="item">contact us</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>welcome to coding world</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi porro natus ut est sapiente expedita. Officiis harum nam voluptas quaerat sint nisi, provident optio nulla odio quidem doloremque expedita, praesentium in est animi cum? </p>
+        </section>
+        <hr>
+    </header>
+</body>
+</html>

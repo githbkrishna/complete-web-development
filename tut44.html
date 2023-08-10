@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamplete Areas</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+        }
+
+        .item {
+            background-color: yellow;
+            border: 3px solid black;
+            padding: 13px 23px;
+        }
+
+        #navbar{
+            grid-area: navbar;
+        }
+
+        #section{
+            grid-area: section;
+        }
+
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            Home About Contact us
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore architecto amet, repellendus, molestiae repudiandae dolores expedita saepe nisi atque, sapiente hic fugiat suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure enim esse repellat nam itaque. Eligendi quae sapiente tempora laboriosam, illum voluptate minima quo. Perspiciatis error molestias dolores in voluptatem maiores, suscipit quibusdam a mollitia debitis eos dignissimos ratione sapiente harum incidunt quasi commodi assumenda iusto. Voluptate commodi consequuntur dolores quo illo incidunt voluptatem consequatur numquam impedit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, delectus quas illum impedit magnam debitis tempora explicabo cupiditate officiis repellat dolor, itaque soluta. Iste inventore dicta, necessitatibus repellat temporibus voluptatem nam modi adipisci ad esse alias consequuntur asperiores ex dolores, quia cumque a, placeat molestiae fugit voluptatum at nisi odit. Quam recusandae modi, enim quidem asperiores optio hic maxime nemo placeat aspernatur ducimus architecto aperiam fuga quaerat eligendi vero esse quibusdam facere earum, suscipit amet ab odit iste doloribus! Modi odio officia tenetur et tempore vero voluptatum nihil adipisci enim voluptatibus, earum, officiis dolores veniam. Voluptates, asperiores! Veritatis, est dicta.
+        </div>
+        <div id="aside" class="item">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quam magnam eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit atque debitis odio delectus omnis libero a voluptatibus excepturi deserunt expedita exercitationem quia, maiores quasi totam inventore dolor saepe corrupti voluptatum? Natus commodi sed earum, aliquam voluptas distinctio perspiciatis iusto quisquam consectetur assumenda dolorum ipsam aliquid, veritatis nobis soluta! Officiis, eum? Quibusdam, quas perferendis dolores eveniet vel quasi quo labore optio, qui sint natus dolore consequatur ab alias ipsa reprehenderit. Doloremque nam magni libero quidem culpa, voluptas rem ea sapiente enim nostrum? Nemo voluptatibus, distinctio delectus aliquam sequi impedit quae id corrupti, modi aperiam consequatur quis magnam ipsa, in quia voluptate.
+        </div>
+        <footer class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quas officia incidunt.</footer>
+        <!-- <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            /* border: 2px solid red; */
+            margin: 34px 23px;
+            padding: 23px 32px;
+            background-color: aqua;
+            /* box-shadow: offset-x & offset-y color */
+            /* box-shadow: offset-x & offset-y blur-radius color */
+            /* box-shadow: offset-x & offset-y blur-radius  spread-radius color */
+            /* box-shadow: 23px 21px green; */
+
+            /* box-shadow: -13px -11px green; */
+            /* box-shadow: 5px 7px 10px green; */
+            /* box-shadow: -13px -11px 15px green; */
+            /* box-shadow: -13px -11px 15px 34px green; */
+
+            box-shadow: -13px -11px 15px 34px rgba(9, 16, 27, 0.5);
+            box-shadow: inset 3px 5px green;
+            box-shadow: 3px 5px goldenrod, 4px 6px red;
+       
+        }
+        .card h2{
+            /* text-shadow: 1px 2px white; */
+            text-shadow: 1px 2px 2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>this is c++ course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et laboriosam maxime
+                assumenda! Eligendi, quo. Asperiores enim ipsam modi quidem, fugiat explicabo iusto error, repudiandae quas
+                veniam minima saepe accusantium sapiente dolore. Doloremque, rem quis.</p>
+        </div>
+
+        <div class="card" id="card-2">
+            <h2>this is python course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et laboriosam maxime
+                assumenda! Eligendi, quo. Asperiores enim ipsam modi quidem, fugiat explicabo iusto error, repudiandae quas
+                veniam minima saepe accusantium sapiente dolore. Doloremque, rem quis.</p>
+        </div>
+
+        <div class="card" id="card-3">
+            <h2>this is java copurse</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et laboriosam maxime
+                assumenda! Eligendi, quo. Asperiores enim ipsam modi quidem, fugiat explicabo iusto error, repudiandae quas
+                veniam minima saepe accusantium sapiente dolore. Doloremque, rem quis.</p>
+        </div>
+    </div>
+</body>
+
+</html>
